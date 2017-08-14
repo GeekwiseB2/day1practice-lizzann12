@@ -1,16 +1,32 @@
-li {
-  list-style-type: none;
-  color: #e40007;
+body {
+  background-color: #ff0;
 }
-
-@media screen and (min-width: 300px) {
-  .col-md-3 {
-    background-color: blue;
-  }
+header {
+  background-color: #0000ff;
+  height:200px;
+  color: #fff;
 }
-
-@media screen and (min-width: 500px) {
-  .col-md-3 {
-    background-color: purple;
-  }
+nav {
+  background-color: #008000;
+  height:80px;
+}
+.content {
+  background-color: #ff0000;
+  height: 150px;
+}
+.aside {
+  background-color: #00ffff;
+  height: 150px;
+}
+.promo {
+  background-color: #ffa500;
+  height: 100px;
+}
+footer {
+  background-color: #000000;
+  height: 50px;
+  color: #fff;
+}
+header, nav, .content, .aside, .promo, footer {
+  border: 3px solid #000;
 }
