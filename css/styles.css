@@ -30,3 +30,34 @@ footer {
 header, nav, .content, .aside, .promo, footer {
   border: 3px solid #000;
 }
+.green {
+  height: 200px;
+  background-color: green;
+}
+.blue {
+  height: 200px;
+  background-color: blue;
+}
+
+.col-sm-1 {
+  height: 100px;
+  background-color: black;
+  border:1px solid white;
+}
+.left {
+  height: 300px;
+  background-color: white;
+  border: 1px solid #fff;
+}
+.right {
+  height: 300px;
+  background-color: black;
+  border: 3px solid blue;
+}
+/* Media queries start */
+
+@media /* <--Rule*/ screen /*<---media*/ and (min-width: 600px) {
+  .right {
+    background-color: pink;
+  }
+}
